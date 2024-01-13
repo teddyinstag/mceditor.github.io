@@ -1,0 +1,10 @@
+a {
+    color: white;
+  }
+  
+  /* Jeśli użytkownik preferuje jasny motyw, zmień kolor linku na czarny */
+  @media (prefers-color-scheme: light) {
+    a {
+      color: black;
+    }
+  }
